@@ -1134,22 +1134,30 @@ input, select, textarea {
 			}
 		}
 		
-		/* Estilos do botão */
-		.custom-button {
-			display: inline-block;
-			margin-top: 20px;
-			padding: 10px 20px;
-			font-size: 16px;
-			color: #fff;
-			background-color: #333;
-			border: none;
-			border-radius: 5px;
-			cursor: pointer;
-			transition: background-color 0.3s;
-		}
-		
-		.custom-button:hover {
-			background-color: #555;
-		}
+/* Estilo do botão */
+.custom-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;  /* Remove a sublinhado do link */
+    transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #555;
+}
+
+/* Remove a estilização de links dentro de botões */
+.custom-button a {
+    color: inherit; /* Herda a cor do botão */
+    text-decoration: none; /* Remove a sublinhado */
+}
+
 		
 		
